@@ -1,6 +1,6 @@
 # Checkbook
 
-The check.h and check.cc files define a class called Check, which holds the information for a single check, including the check_number, the date that it was written, to whom it was written and the amount of the check. This class is dependent on the Date class, which already has defined the >> and << operators for Date objects as well as a full set of comparison operators.
+The check.h and check.cc files define a class called `Check`, which holds the information for a single check, including the *check_number*, the *date* that it was written, to *whom* it was written and the *amount* of the check. This class is dependent on the `Date` class, which already has defined the >> and << operators for `Date` objects as well as a full set of comparison operators.
 
 Checkbook objects consist of an array capable of holding 200 checks, a number to keep track of how full that array is, a balance (which says how much money is in the checking account), ***and a variable for the next available check num***. The functions for the checkbook class give the user the ability to:
 
